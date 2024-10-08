@@ -3,6 +3,6 @@ package com.voting.Entity;
 import jakarta.persistence.Entity;
 
 @Entity
-public class VoteEntity {
+public class ElectionEntity {
 
 }
