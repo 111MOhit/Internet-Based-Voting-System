@@ -8,5 +8,6 @@ import java.time.LocalDate;
 import java.util.List;
 
 public interface ElectionRepository extends JpaRepository<ElectionEntity, Long> {
-    List<ElectionEntity> findByStartDateAfterAndEndDateBefore(LocalDate startDate, LocalDate endDate); // Find elections within a date range
+    List<ElectionEntity> findByStartDateAfterAndEndDateBefore(LocalDate startDate, LocalDate endDate); 
+    int a= 5;
 }
